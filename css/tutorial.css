@@ -1,0 +1,15 @@
+li {
+	margin: 0 0 0 0;
+}
+h3 {
+	text-decoration: underline;
+}
+h3, h4, p {
+	margin: 0 4px 0 0;
+}
+.subHead {
+	margin-left: 1.5em;
+}
+.discription {
+	margin-left: 3.5em;
+}
