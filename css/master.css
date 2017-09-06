@@ -1,0 +1,65 @@
+html, header, body {
+	background-color: #ffdddd;
+}
+.head {
+	margin-bottom: 1em; margin-left: auto; margin-right: auto;
+	width: 98%;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color: #ffeeee;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: underline;
+	color: #444444;
+}
+a .broken {
+	text-decoration: line-through;
+}
+		background-color: #000000;
+	}
+.introduction {
+	margin: 0 0 0 0;
+}
+.title {
+	margin: 0 0 0 0;
+	text-align: center;
+}
+.subtitle {
+	margin: 0 0 0 0;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+#dropdownMenuButton {
+	background-color: #E50900;
+	color: #000000;
+}
+.dropdown-menu {
+	background-color: #BF0800;
+	color: #000000;
+}
+.disabled:hover {
+	text-decoration: line-through;
+}
+.dropdown-item:hover {
+	background-color: #7F0500;
+}
+.link {
+	background-color: #E50900;
+	color: #000000;
+}
+.link:hover {
+	background-color: #E50900;
+	color: #000000;
+}
+.broken:hover {
+	text-decoration: line-through;
+	background-color: #E56666;
+}

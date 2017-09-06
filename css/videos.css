@@ -1,0 +1,13 @@
+.container-fluid {
+	margin: auto;
+	width: 80%;
+}
+.title {
+	text-align: left;
+}
+.subtitle {
+	text-align: left;
+}
+.row {
+	margin-bottom: 1em;
+}
