@@ -3,7 +3,7 @@
 <header>
 	<!--Started on 24/8/17 Jackson Smith-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link href='../css/master.css' rel='stylesheet' type='text/css' />
+	<link href="../css/master.css" rel="stylesheet" type="text/css" />
 	<link href='../css/videos.css' rel='stylesheet' type='text/css' />
 		<title>iD&Deas</title>
 	<div class='head'>
@@ -48,34 +48,56 @@
 	</div>
 </header>
 <body>
-	<div class='introduction'>
-		<h1 class='title'>Hello Adventurers!</h1>
-			<h2 class='subtitle'>And Welcome to the Videos Section of the iD&Deas Website!</h2>
-				<div class='container-fluid'>
-					<div class='videos'>
-						<div class='row'>
-							<div class='embed-responsive embed-responsive-16by9 col-md-6'>
+	<div class='container-fluid'>
+		<div class='inroduction'>
+			<h1 class='title'>Hello Adventurers!</h1>
+				<h2 class='subtitle'>And Welcome to the Videos Section of the iD&Deas Website!</h2>
+		<h3>Ten Most Recent Videos</h3>
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+				</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class='embed-responsive embed-responsive-16by9 col-md-12'>
 								<iframe class='embed-responsive-item' src="https://www.youtube.com/embed/vsFveKYIxpY" frameborder="0" allowfullscreen></iframe>
 							</div>
-							<div class='embed-responsive embed-responsive-16by9 col-md-6'>
+						</div>
+						<div class="carousel-item">
+							<div class='embed-responsive embed-responsive-16by9 col-md-12'>
 								<iframe class='embed-responsive-item' src="https://www.youtube.com/embed/Rd2YI9mb2Yg" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
-						<div class='row'>
-							<div class='embed-responsive embed-responsive-16by9 col-md-6'>
+						<div class="carousel-item">
+							<div class='embed-responsive embed-responsive-16by9 col-md-12'>
 								<iframe class='embed-responsive-item' src="https://www.youtube.com/embed/lOeh3A0XO40" frameborder="0" allowfullscreen></iframe>
 							</div>
-							<div class='embed-responsive embed-responsive-16by9 col-md-6'>
+						</div>
+						<div class="carousel-item">
+							<div class='embed-responsive embed-responsive-16by9 col-md-12'>
 								<iframe class='embed-responsive-item' src="https://www.youtube.com/embed/O-ppFdELIqs" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
-						<div class='row'>
-							<div class='embed-responsive embed-responsive-16by9 col-md-6'>
+						<div class="carousel-item">
+							<div class='embed-responsive embed-responsive-16by9 col-md-12'>
 								<iframe class='embed-responsive-item' src="https://www.youtube.com/embed/WsdtsGtMYXs" frameborder="0" allowfullscreen></iframe>
 							</div>
 						</div>
 					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
 				</div>
+		</div>
 	</div>
 </body>
 <footer>

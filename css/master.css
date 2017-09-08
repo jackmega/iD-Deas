@@ -50,9 +50,10 @@ a:hover {
 a .broken {
 	text-decoration: line-through;
 }
-		background-color: #000000;
-	}
 .introduction {
+	margin: 0 0 0 0;
+}
+.introductionzzz {
 	margin: 0 0 0 0;
 }
 .title {
