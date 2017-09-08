@@ -1,6 +1,35 @@
+/*normal*/
+@font-face {
+	font-family: 'texGyre';
+	src: url('../font/texgyrebonum-regular.otf') format('opentype');
+}
+/*bold*/
+@font-face {
+	font-family: 'texGyre Bold';
+	src: url('../font/texgyrebonum-bold.otf') format('opentype');
+}
+/*italic*/
+@font-face {
+	font-family: 'texGyre italic';
+	src: url('../font/texgyrebonum-italic.otf') format('opentype');
+}
+/*bold-italic*/
+@font-face {
+	font-family: 'texGyre bI';
+	src: url('../font/texgyrebonum-bolditalic.otf') format('opentype');
+}
+/*Mrs Eaves Small Caps*/
+@font-face {
+	font-family: 'mrsEaves';
+	src: url('../font/MrsEavesSmallCaps_Regular.ttf') format('truetype');
+}
 html, header, body {
 	background-image: url('../img/parchmentBack.png');
 	background-repeat: repeat-x, repeat-y;
+	font-family: 'texGyre';
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'mrsEaves';
 }
 .head {
 	margin-bottom: 1em; margin-left: auto; margin-right: auto;
@@ -33,6 +62,8 @@ a .broken {
 .subtitle {
 	margin: 0 0 0 0;
 	text-align: center;
+	font-family: 'texGyre';
+	font-size: 1.3em;
 }
 ul {
 	list-style-type: none;
@@ -40,24 +71,30 @@ ul {
 #dropdownMenuButton {
 	background-color: #E50900;
 	color: #000000;
+	font-family: 'mrsEaves';
 }
 .dropdown-menu {
 	background-color: #BF0800;
 	color: #000000;
+	font-family: 'mrsEaves';
 }
 .disabled:hover {
 	text-decoration: line-through;
+	font-family: 'mrsEaves';
 }
 .dropdown-item:hover {
 	background-color: #7F0500;
+	font-family: 'mrsEaves';
 }
 .link {
 	background-color: #E50900;
 	color: #000000;
+	font-family: 'mrsEaves';
 }
 .link:hover {
 	background-color: #E50900;
 	color: #000000;
+	font-family: 'mrsEaves';
 }
 .broken:hover {
 	text-decoration: line-through;
